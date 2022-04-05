@@ -13,7 +13,79 @@ body {
 
 body {
   background-color: #144284;
-  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  padding: 2rem 10rem;
+  justify-content: space-between;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #fff;
+}
+header .gamme {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+}
+header .logo {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+header .logo img {
+  max-width: 50%;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.presentation {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 5%;
+}
+.presentation .matelas {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border: 2px solid #fff;
+}
+.presentation .matelas .picture {
+  flex-basis: 16%;
+}
+.presentation .matelas .picture img {
+  width: 100%;
+}
+.presentation .matelas .marque {
+  flex-basis: 28%;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.presentation .matelas .type {
+  flex-basis: 28%;
+  font-weight: bold;
+}
+.presentation .matelas .price {
+  flex-basis: 28%;
+  font-weight: bolder;
+}
+.presentation .matelas .price #promo {
+  color: red;
+  text-decoration: line-through;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 80%;
 }
 
 /*# sourceMappingURL=main.css.map */

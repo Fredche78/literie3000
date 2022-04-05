@@ -8,5 +8,14 @@
     <title>Literie 3000</title>
 </head>
 <body>
-    <div class="main">
+    <header>
+        <div class="gamme">
+            <p>Notre gamme de matelas</p>
+        </div>
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="logo">
+        </div>
+    </header>
+        <div class="main">
+            <div class="container">
         
