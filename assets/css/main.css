@@ -105,22 +105,38 @@ h1 {
   width: 100%;
 }
 .presentation .matelas .marque {
-  flex-basis: 28%;
+  flex-basis: 26%;
   justify-content: center;
   text-transform: uppercase;
   font-weight: bold;
 }
 .presentation .matelas .type {
-  flex-basis: 28%;
+  flex-basis: 26%;
   font-weight: bold;
 }
 .presentation .matelas .price {
-  flex-basis: 28%;
+  flex-basis: 26%;
   font-weight: bolder;
 }
 .presentation .matelas .price #promo {
   color: red;
   text-decoration: line-through;
+}
+.presentation .matelas .idProd {
+  flex-basis: 6%;
+  font-weight: bold;
+}
+.presentation .suppression {
+  display: flex;
+  padding: 1.5rem;
+  background-color: #eb6565;
+  justify-content: right;
+  text-align: right;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.presentation .suppression input {
+  width: 5rem;
 }
 
 .ajout {

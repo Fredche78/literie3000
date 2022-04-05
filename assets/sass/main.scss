@@ -56,19 +56,19 @@ h1 {
         }
     
         .marque {
-            flex-basis: 28%;
+            flex-basis: 26%;
             justify-content: center;
             text-transform: uppercase;
             font-weight: bold;
         }
     
         .type {
-            flex-basis: 28%;
+            flex-basis: 26%;
             font-weight: bold;
         }
     
         .price {
-            flex-basis: 28%;
+            flex-basis: 26%;
             font-weight: bolder;
 
             #promo {
@@ -77,7 +77,26 @@ h1 {
             }
     
         }
+
+        .idProd {
+            flex-basis: 6%;
+            font-weight: bold;
+        }
     
+    }
+
+    .suppression {
+        display: flex;
+        padding: 1.5rem;
+        background-color: #eb6565;
+        justify-content: right;
+        text-align: right;
+        font-weight: bold;
+        text-transform: uppercase;
+
+        input {
+            width: 5rem;
+        }
     }
 }
 
