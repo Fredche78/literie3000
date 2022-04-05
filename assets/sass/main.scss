@@ -1,6 +1,6 @@
 @import "reset";
 @import "variables";
-
+@import "formulaire";
 
 body {
     background-color: $color-primary;
@@ -78,6 +78,24 @@ h1 {
     
         }
     
+    }
+}
+
+.ajout {
+    display: flex;
+    justify-content: right;
+    margin: 2rem 10rem 0 0;
+
+    #btn-ajout {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #fff;
+        background-color: $validation;
+        font-size: 2rem;
+        padding: 2rem 4rem;
+        border: none;
+        border-radius: 2rem;
+        
     }
 }
 

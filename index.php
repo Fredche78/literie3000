@@ -16,7 +16,7 @@ include("templates/header.php")
         <div class="matelas">
 
             <div class="picture">
-                <img src="assets/img/matelas/<?= $item['photo'] ?>" alt="<?= $item["marque"] . " " . $item["modele"] ?> ">
+                <img src="<?= $item['photo'] ?>" alt="<?= $item["marque"] . " " . $item["modele"] ?> ">
             </div>
             <div class="marque">
                 <?= $item["marque"] ?>
@@ -35,6 +35,12 @@ include("templates/header.php")
     <?php
     }
     ?>
+</div>
+
+<div class="ajout">
+    <a href="add_matelas.php">
+        <button id="btn-ajout">Ajouter un produit</button>
+    </a>
 </div>
 
 <?php
