@@ -8,8 +8,8 @@ $matelas = $query->fetchAll();
 if (!empty($_POST)) {
 
     $delete = trim(strip_tags($_POST["delete"]));
-    $query = $db->prepare("DELETE FROM matelas WHERE id= :delete");
-    $query->bindParam(":delete", $delete);
+    $query = $db->prepare("DELETE FROM matelas WHERE id= :id");
+    $query->bindParam(":id", $delete);
 
     // if ($_GET["id"] === $item["id"]) {
     ($query->execute());
